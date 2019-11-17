@@ -2,10 +2,8 @@ import numpy as np
 import os
 from xml.etree import ElementTree
 
-#classes = 3
-#classes_name = ['x','p','t']
-classes = 1
-classes_name = ['ChannelLine'] #2 products' barcodes
+classes = 3
+classes_name = ['x','p','t']
 
 class XML_preprocessor(object):
 
